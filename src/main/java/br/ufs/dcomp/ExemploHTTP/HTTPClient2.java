@@ -48,7 +48,7 @@ public class HTTPClient2
          */    
 
         // Arquivo onde o conteúdo da resposta será escrito
-        File file = new File("/home/ubuntu/workspace/sistemas-distribuidos/java/ExemploHTTPJava/logo_unicamp_novo_0.png");
+        File file = new File("/home/ubuntu/environment/sistemas-distribuidos/ExemploHTTPJava/logo_unicamp_novo_0.png");
         FileOutputStream fos = new FileOutputStream(file);
         
         System.out.println("Downloading...");
