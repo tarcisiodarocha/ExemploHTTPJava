@@ -23,7 +23,7 @@ public class HTTPClient1
         String CRLF = "\r\n";
         
         String msg = "GET / HTTP/1.1" + CRLF +
-                     "Host: www.ic.unicamp.br" + CRLF +
+                     "Host: www.ufs.br" + CRLF +
                      CRLF;
 
         // Envio da requisição HTTP             
