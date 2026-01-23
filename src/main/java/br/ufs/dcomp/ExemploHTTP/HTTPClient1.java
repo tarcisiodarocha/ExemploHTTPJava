@@ -15,7 +15,7 @@ public class HTTPClient1
 {
     public static void main( String[] args ) throws Exception
     {
-        Socket sock = new Socket("www.ic.unicamp.br", 80);
+        Socket sock = new Socket("www.tobymackenzie.com", 80);
         
         InputStream in = sock.getInputStream();
         OutputStream out = sock.getOutputStream();
@@ -23,7 +23,7 @@ public class HTTPClient1
         String CRLF = "\r\n";
         
         String msg = "GET / HTTP/1.1" + CRLF +
-                     "Host: www.ufs.br" + CRLF +
+                     "Host: www.tobymackenzie.com" + CRLF +
                      CRLF;
 
         // Envio da requisição HTTP             
